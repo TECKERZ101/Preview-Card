@@ -12,10 +12,22 @@
     src: url(https://fonts.gstatic.com/s/bigshouldersdisplay/v21/fC1MPZJEZG-e9gHhdI4-NBbfd2ys3SjJCx12wPgf9g-_3F0YdY87FFkwTjH92ZWI0g.woff) format('woff');
 }
 
-.attribution {
+.attribution { 
+    font-family: Lexend Deca;
     font-size: 11px; text-align: center;
+    bottom: 0;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    bottom: 8px;
+    width: 12rem;
+    max-width: calc(
+      100vw - 8px * 2
+    );
+    margin-inline: auto;
 }
 
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
