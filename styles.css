@@ -21,9 +21,6 @@
     right: 0px;
     bottom: 8px;
     width: 12rem;
-    max-width: calc(
-      100vw - 8px * 2
-    );
     margin-inline: auto;
 }
 
