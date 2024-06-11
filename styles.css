@@ -8,7 +8,7 @@
 @font-face {
     font-family: 'Big Shoulders Display';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     src: url(https://fonts.gstatic.com/s/bigshouldersdisplay/v21/fC1MPZJEZG-e9gHhdI4-NBbfd2ys3SjJCx12wPgf9g-_3F0YdY87FFkwTjH92ZWI0g.woff) format('woff');
 }
 
@@ -26,6 +26,7 @@ body p {
     padding: 1rem;
     font-family: Lexend Deca;
     color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
 }
 
 #mainBody {
@@ -66,8 +67,18 @@ body p {
     margin-left: auto;
     margin-right: auto;
     background-color: hsl(0, 0%, 95%);
-    padding: 0.5rem;
+    padding: 0.7rem;
+    border: 1px solid;
+    border-color: transparent;
     border-radius: 1rem;
+}
+
+.learnMore:hover {
+    color: hsl(0, 0%, 95%);
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid;
+    border-color: hsl(0, 0%, 95%);
 }
 
 .centerText {
