@@ -20,6 +20,10 @@ body p {
     font-family: Lexend Deca;
 }
 
+#mainBody {
+    border-radius: 1rem;
+}
+
 .attribution { 
     font-family: Lexend Deca;
     font-size: 11px; text-align: center;
