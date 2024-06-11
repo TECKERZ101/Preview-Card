@@ -14,15 +14,51 @@
 
 body h1 {
     font-family: Big Shoulders Display;
+    padding: 1rem;
 }
 
 body p {
+    padding: 1rem;
     font-family: Lexend Deca;
 }
 
 #mainBody {
     border-radius: 0.5rem;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    inset: 0px;
+    margin: auto;
+    overflow: hidden;
+    height: min-content;
+    border-radius: 1rem;
+    justify-content: space-between;
+}
 
+.subBody {
+    padding: 2rem;
+}
+
+.sb1 {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.sb2 {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.sb3 {
+    background-color: hsl(179, 100%, 13%);
+}
+
+.learnMore {
+    font-family: Lexend Deca;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .centerText {
