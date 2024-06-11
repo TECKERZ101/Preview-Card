@@ -12,14 +12,20 @@
     src: url(https://fonts.gstatic.com/s/bigshouldersdisplay/v21/fC1MPZJEZG-e9gHhdI4-NBbfd2ys3SjJCx12wPgf9g-_3F0YdY87FFkwTjH92ZWI0g.woff) format('woff');
 }
 
+body {
+    background-color: hsl(0, 0%, 95%);
+}
+
 body h1 {
     font-family: Big Shoulders Display;
     padding: 1rem;
+    color: hsl(0, 0%, 95%);
 }
 
 body p {
     padding: 1rem;
     font-family: Lexend Deca;
+    color: hsla(0, 0%, 100%, 0.75);
 }
 
 #mainBody {
@@ -59,6 +65,9 @@ body p {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    background-color: hsl(0, 0%, 95%);
+    padding: 0.5rem;
+    border-radius: 1rem;
 }
 
 .centerText {
